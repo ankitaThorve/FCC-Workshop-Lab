@@ -1,7 +1,7 @@
-console.log("Hi there!");
+console.log("Hi there!"); // console
 console.log("I am excited to talk to you.");
 let bot;
-bot = "teacherBot";
+bot = "teacherBot"; // assign value
 
 let botLocation = "the universe";
 
@@ -13,7 +13,7 @@ console.log(botIntroduction);
 const botLocationSentence = "I live in " + botLocation + ".";
 console.log(botLocationSentence);
 
-bot = "professorBot";
+bot = "professorBot"; //reassign value
 
 const nicknameIntroduction = "My nickname is " + bot + ".";
 console.log(nicknameIntroduction);
