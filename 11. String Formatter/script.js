@@ -18,9 +18,9 @@ const upperCaseInput = cleanedInput.toUpperCase();
 console.log("Result of using the toUpperCase() method:");
 console.log(upperCaseInput);
 
-// const lowerCaseInput = cleanedInput.toLowerCase();
-// console.log("Result of using the toLowerCase() method:");
-// console.log(lowerCaseInput);
+const lowerCaseInput = cleanedInput.toLowerCase();
+console.log("Result of using the toLowerCase() method:");
+console.log(lowerCaseInput);
 
 // const lowercaseWord = "camelcase";
 // const camelCasedVersion = lowercaseWord.slice(0, 5) + lowercaseWord[5].toUpperCase() + lowercaseWord.slice(-3);
