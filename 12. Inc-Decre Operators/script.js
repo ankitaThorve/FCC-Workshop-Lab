@@ -10,11 +10,11 @@ console.log(`Score is currently ${score}`);
 let finalScore = score++; //post-increment
 console.log(`Score is still ${finalScore}`);
 
-// let coins = 3;
-// console.log(`Coins is currently ${coins}`);
+let coins = 3;
+console.log(`Coins is currently ${coins}`);
 
-// let updatedCoins = --coins; //pre-decrement
-// console.log(`Coins is now ${updatedCoins}`);
+let updatedCoins = --coins; //pre-decrement
+console.log(`Coins is now ${updatedCoins}`);
 
 // let health = 7;
 // console.log(`Health is currently ${health}`);
