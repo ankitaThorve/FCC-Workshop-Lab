@@ -16,8 +16,8 @@ console.log(`Coins is currently ${coins}`);
 let updatedCoins = --coins; //pre-decrement
 console.log(`Coins is now ${updatedCoins}`);
 
-// let health = 7;
-// console.log(`Health is currently ${health}`);
+let health = 7;
+console.log(`Health is currently ${health}`);
 
-// let newHealth = health--; //post-decrement
-// console.log(`Health is still ${newHealth}`);
+let newHealth = health--; //post-decrement
+console.log(`Health is still ${newHealth}`);
