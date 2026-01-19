@@ -36,3 +36,14 @@ console.log("The Math.ceil() method rounds the value up to the nearest whole int
 const numRoundedUp = Math.ceil(3.2);
 console.log(numRoundedUp);
 
+//Math.round() -----
+console.log(
+  "The Math.round() method rounds the value to the nearest whole integer."
+);
+
+const numRounded = Math.round(2.7);
+console.log(numRounded);
+
+const numRounded2 = Math.round(11.2);
+console.log(numRounded2);
+
