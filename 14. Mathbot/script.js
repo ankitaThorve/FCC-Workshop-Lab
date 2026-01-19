@@ -51,3 +51,7 @@ console.log("The Math.max() and Math.min() methods are used to get the maximum a
 //Math.max() ------
 const maxNum = Math.max(3, 125, 55, 24);
 console.log(maxNum);
+
+//Math.min() ------
+const minNum = Math.min(6, 90, 14, 90, 2);
+console.log(minNum);
