@@ -52,3 +52,11 @@ function calculateSquare(num) {
 
 console.log(calculateSquare(2));
 console.log(calculateSquare(9));
+
+// square root of a number
+function calculateSquareRoot(num) {
+  return Math.sqrt(num);
+}
+
+console.log(calculateSquareRoot(25));
+console.log(calculateSquareRoot(100));
