@@ -38,7 +38,8 @@ console.log(calculateProduct(13, 5));
 
 //division functionality
 function calculateQuotient(num1, num2){
-  return num1 / num2;
+  // return num1 / num2;
+  return num2 === 0 ? "Error: Division by zero" : num1 / num2; //error conflicted
 }
 
 console.log(calculateQuotient(7,11));
