@@ -28,3 +28,11 @@ function getLoanMessage(annualIncome, creditScore) {
   }
 }
 
+const duplexLoanMsg = getLoanMessage(85000, 850);
+console.log(duplexLoanMsg);
+const condoLoanMsg = getLoanMessage(65000, 690);
+console.log(condoLoanMsg);
+const carLoanMsg = getLoanMessage(45000, 660);
+console.log(carLoanMsg);
+const noLoanMsg = getLoanMessage(25000, 550);
+console.log(noLoanMsg);
