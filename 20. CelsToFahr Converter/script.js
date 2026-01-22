@@ -3,6 +3,7 @@ function convertCtoF(tempInCelsius){
   return tempInCelsius * (9/5) + 32;
 }
 
+//arguments
 console.log(convertCtoF(0));
 console.log(convertCtoF(-30))
 console.log(convertCtoF(-10))
