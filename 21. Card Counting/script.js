@@ -15,5 +15,6 @@ function cardCounter(card) {
   ) {
     count--;
   }
+  // Cards 7, 8, 9 do not affect the count
+  return count > 0 ? count + " Bet" : count + " Hold"; // Decide action
 }
-
