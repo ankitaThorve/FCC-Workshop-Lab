@@ -11,3 +11,7 @@ function isLeapYear(year){
   }
 }
 
+let result = isLeapYear(year);
+console.log(result);
+result = isLeapYear(1900);
+console.log(result);
