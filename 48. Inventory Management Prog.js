@@ -10,7 +10,6 @@ function findProductIndex(productName) {
     });
 }
 
-/*
 // addProduct function
 function addProduct(product) {
     const lowerName = product.name.toLowerCase();
@@ -27,6 +26,8 @@ function addProduct(product) {
         console.log(lowerName + " added to inventory");
     }
 }
+
+/*
 
 // removeProduct function
 function removeProduct(productName, quantity) {
