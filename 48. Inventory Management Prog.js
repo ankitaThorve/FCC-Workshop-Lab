@@ -56,8 +56,8 @@ function removeProduct(productName, quantity) {
     console.log(
         "Remaining " + lowerName + " pieces: " + inventory[index].quantity,
     );
-    // //Remove if zero
-    // if (inventory[index].quantity === 0) {
-    //     inventory.splice(index, 1);
-    // }
+    //Remove if zero
+    if (inventory[index].quantity === 0) {
+        inventory.splice(index, 1);
+    }
 } 
