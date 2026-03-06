@@ -41,15 +41,15 @@ function removeProduct(productName, quantity) {
 
     const currentQuantity = inventory[index].quantity;
     // Not enough quantity
-    // if (currentQuantity < quantity) {
-    //     console.log(
-    //         "Not enough " +
-    //             lowerName +
-    //             " available, remaining pieces: " +
-    //             currentQuantity,
-    //     );
-    //     return;
-    // }
+    if (currentQuantity < quantity) {
+        console.log(
+            "Not enough " +
+                lowerName +
+                " available, remaining pieces: " +
+                currentQuantity,
+        );
+        return;
+    }
     //Subtract quantity
     // inventory[index].quantity -= quantity;
 
