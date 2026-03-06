@@ -1,6 +1,6 @@
 // inventory array
 let inventory = [];
-/*
+
 // findProductIndex function
 function findProductIndex(productName) {
     const lowerName = productName.toLowerCase();
@@ -10,6 +10,7 @@ function findProductIndex(productName) {
     });
 }
 
+/*
 // addProduct function
 function addProduct(product) {
     const lowerName = product.name.toLowerCase();
