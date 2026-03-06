@@ -51,11 +51,11 @@ function removeProduct(productName, quantity) {
         return;
     }
     //Subtract quantity
-    // inventory[index].quantity -= quantity;
+    inventory[index].quantity -= quantity;
 
-    // console.log(
-    //     "Remaining " + lowerName + " pieces: " + inventory[index].quantity,
-    // );
+    console.log(
+        "Remaining " + lowerName + " pieces: " + inventory[index].quantity,
+    );
     // //Remove if zero
     // if (inventory[index].quantity === 0) {
     //     inventory.splice(index, 1);
