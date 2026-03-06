@@ -34,12 +34,12 @@ function removeProduct(productName, quantity) {
     const lowerName = productName.toLowerCase();
     const index = findProductIndex(lowerName);
     //Product not present
-    // if (index === -1) {
-    //     console.log(lowerName + " not found");
-    //     return;
-    // }
+    if (index === -1) {
+        console.log(lowerName + " not found");
+        return;
+    }
 
-    // const currentQuantity = inventory[index].quantity;
+    const currentQuantity = inventory[index].quantity;
     // Not enough quantity
     // if (currentQuantity < quantity) {
     //     console.log(
